@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="359,580" caption="0,0,0,200" maxinfo="359,580" mininfo="359,580">
+    <Font name="微软雅黑" size="20" bold="true" italic="false" id="0"/>
+    <Font name="微软雅黑" size="53" bold="true" italic="false" id="1"/>
+    <Font name="新宋体" size="20" bold="false" italic="false" id="2"/>
+    <Font name="微软雅黑" size="25" bold="true" italic="false" id="3"/>
+    <VerticalLayout width="359" height="580" bkcolor="#FFFAF8EF">
+        <HorizontalLayout width="363" height="23" />
+        <HorizontalLayout width="359" height="177">
+            <VerticalLayout width="200" height="71">
+                <Label text="2048" float="true" pos="19,0,0,0" width="143" height="70" textcolor="#00776E65" disabledtextcolor="#FFA7A6AA" font="1" />
+            </VerticalLayout>
+            <VerticalLayout name="vertical" width="150" height="67" bkcolor="#FFBBADA0">
+                <Label text="得分" float="true" pos="13,4,0,0" width="150" height="25" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" font="2" align="left"/>
+                <Text name="scores" text="0" float="true" pos="2,29,0,0" width="150" height="33" textpadding="12,0,0,0" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" font="3" align="left" />
+            </VerticalLayout>
+            <Label text="玩法：" float="true" pos="14,74,0,0" width="57" height="27" textcolor="#00776E65" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label text="1.使用方向键移动数字,空格重置" float="true" pos="14,106,0,0" width="355" height="22" textcolor="#00656E77" disabledtextcolor="#FFA7A6AA" font="2" />
+            <Label text="2.相邻数字相同则并成1个数字" float="true" pos="13,136,0,0" width="346" height="24" textcolor="#00656E77" disabledtextcolor="#FFA7A6AA" font="2" />
+        </HorizontalLayout>
+        <HorizontalLayout width="372" height="385">
+            <VerticalLayout width="9" height="26" />
+            <VerticalLayout width="340" height="340" bkcolor="#FFBBADA0">
+                <Button name="bt1" float="true" pos="12,12,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt4" float="true" pos="258,12,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt3" float="true" pos="176,12,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt2" float="true" pos="94,12,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt5" float="true" pos="12,94,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt6" float="true" pos="94,94,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt7" float="true" pos="176,94,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt8" float="true" pos="258,94,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt9" float="true" pos="12,176,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt10" float="true" pos="94,176,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt11" float="true" pos="176,176,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt12" float="true" pos="258,176,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt13" float="true" pos="12,258,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt14" float="true" pos="94,258,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt15" float="true" pos="176,258,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+                <Button name="bt16" float="true" pos="258,258,0,0" width="70" height="70" bkcolor="#FFCCC0B3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" align="center" />
+            </VerticalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
